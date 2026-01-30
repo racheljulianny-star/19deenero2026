@@ -32,12 +32,12 @@
     justify-content: space-between;
     height: 80px;
 
-    --icon-toggle-menu: url("/img/menu-regular-24.png");
+    --icon-toggle-menu: url("/menu-regular-24.png");
     --transform-menu-show: translate(-100%); 
 }
 
 .nav_conteiner:has(.nav_input:checked){
-   --icon-toggle-menu: url("/img/x-regular-24.png");
+   --icon-toggle-menu: url("/x-regular-24.png");
    --transform-menu-show: translate(0); 
 }
 
